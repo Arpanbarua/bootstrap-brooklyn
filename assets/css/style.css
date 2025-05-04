@@ -173,6 +173,13 @@ margin: 5px;
 width: calc(33% - 10px);
 }
 
+#banner .card-box:hover 
+{
+    background: rgba(230, 216, 255, 0.9); 
+    transform: scaleY(1.05);
+    transform-origin: bottom;
+}
+
 #banner .card-box .details
 {
     padding: 17px 12px;

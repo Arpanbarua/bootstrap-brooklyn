@@ -95,8 +95,8 @@ display: inline-block;
 
 #banner 
 {
-    padding: 50px 0;
-    margin: 40px 0;
+    padding: 50px 0 120px 0 ;
+    margin: 50px 0 650px 0;
 }
 
 #banner .contains>h4 
@@ -153,6 +153,7 @@ text-decoration: none;
 #banner .contains .row 
 {
     margin-top: 100px;
+    
 }
 
 #banner .card-box
@@ -161,7 +162,7 @@ text-decoration: none;
     border: 1px solid var(--gray-white);
 border-radius: 6px;
 margin: 5px;
-width: calc(33% - 10px)
+width: calc(33% - 10px);
 }
 
 #banner .card-box .details
@@ -194,12 +195,23 @@ width: calc(33% - 10px)
 /*-------- banner css end ----------*/
 
 /*-------- about css start ----------*/
+#about 
+{
+    background: #fff;
+    
+}
+
 #about .container 
 {
     box-shadow: 0 36px 105px 0 rgba(43, 56, 76, 0.1);
 background: var(--gray-white);
 border-radius: 16px;
 padding: 112px;
+position: absolute;
+top: 920px;
+left: 100px;
+z-index: 3;
+
 }
 
 #about .contains h4
@@ -317,6 +329,271 @@ transform-origin: bottom;
 }
 
 
-
-
 /*-------- about css end ----------*/
+
+/*-------- work css start ----------*/
+#work
+{
+    background: var(--gray-50);
+   position: relative;
+   padding-bottom: 140px;
+}
+
+#work .contains h4 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 117%;
+    color: var(--gray-900);
+}
+
+#work .contains p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--gray-500);
+    
+}
+
+#work .contains p:first-of-type
+{
+    margin: 24px 0 16px 0;
+}
+
+#work .row 
+{
+    padding-top: 248px ;
+
+}
+
+#work .col-xl-6 .row 
+{
+    padding-top: 0;
+}
+
+#work .card-box img 
+{
+    background: rgba(237, 216, 255, 0.5);
+    border-radius: 6px;
+    margin-bottom: 32px;
+}
+
+#work .card-box p 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-600);
+    margin-bottom: 0;
+    
+}
+
+#work .card-box h4
+{
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+color: var(--gray-900);
+margin-bottom: 12px;
+}
+
+#work .card-box 
+{
+    margin: 12px;
+    width: calc(50% - 24px);
+    background: var(--gray-white);
+    padding: 32px;
+    border-radius: 12px;
+}
+
+#work .card-box:hover
+{
+    box-shadow: 32px 32px 124px 0 rgba(43, 56, 76, 0.1);
+background: var(--gray-white);
+}
+
+
+
+
+#work .card-box img 
+{
+    /* background-color: var(--primary-500); */
+    background: rgba(237, 216, 255, 0.5);
+    padding: 25px;
+    border-radius: 6px;
+    
+}
+
+#work .card-box img:hover 
+{
+    background-color: var(--primary-100);
+      
+}
+
+#work .card-box .research:hover 
+{
+    background-color: var(--primary-500);
+    color: white;   
+}
+
+
+
+#work .card-box:nth-child(1) 
+{
+ 
+   position: relative;
+   top: -35px;
+  
+ 
+   
+}
+
+#work .card-box:nth-child(3)
+{
+  
+   position: relative;
+   top: -35px;
+}
+
+/*-------- work css end ----------*/
+
+/*-------- portfolio css start ----------*/
+#portfolio 
+{
+    padding: 100px 0;
+    
+}
+
+#portfolio .contains
+{
+    margin-bottom: 70px;
+}
+
+#portfolio .contains p 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--gray-400);
+    width: 45%;
+    margin: auto;
+} 
+#portfolio .contains h4 
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 117%;
+    color: var(--gray-900);
+    text-align: center;
+} 
+
+#portfolio .card-section .card-box h5:first-of-type 
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: var(--gray-400);
+    margin: 0;
+}
+
+#portfolio .card-section .card-box p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--gray-600);
+    margin-bottom: 20px;
+}
+#portfolio .card-section .card-box h5
+{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--gray-900);
+    margin: 4px 0 12px 0;
+}
+
+#portfolio .card-section .card-box .card-body 
+{
+    padding: 32px;
+}
+
+#portfolio .card-section .card-box a
+{
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: var(--primary-500);
+background: var(--gray-white);
+border: 1px solid var(--primary-500);
+border-radius: 4px;
+display: inline-block;
+}
+
+#portfolio .card-section .card-box a:hover 
+{
+    color: var(--gray-white);
+    background-color: var(--primary-500);
+}
+
+#portfolio .card-section .card-box
+{
+    background: var(--gray-white);
+    outline: 1px solid var(--gray-100);
+border-radius: 8px;
+padding: 0;
+margin: 12px;
+width: calc(33.33% - 24px);
+}
+
+#portfolio .card-section .card-box:hover 
+{
+    box-shadow: 0 12px 64px 0 rgba(28, 25, 25, 0.12);
+}
+
+#portfolio .more a
+{
+    background: var(--primary-500);
+    border-radius: 4px;
+padding: 12px 24px;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: var(--gray-white);
+text-decoration: none;
+display: inline-block;
+text-align: center;
+}
+
+#portfolio .more a:hover 
+{
+    color:#000; 
+    background: var(--gray-white);
+    outline: 1px solid var(--primary-500);
+    
+}
+
+#portfolio .more
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+/*-------- portfolio css end ----------*/

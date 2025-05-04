@@ -1,5 +1,9 @@
 @media(max-width:992px)
 {
+    html, body 
+    {
+        overflow-x: hidden;
+    }
 
     /*-------- nav and offcanvas css start ----------*/
 
@@ -63,7 +67,14 @@
     #banner 
     {
         text-align: center;
+
     }
+
+    #banner 
+{
+    padding: 30px 0 ;
+    margin: 20px 0 ;
+}
     #banner .contains>h4 
     {
         font-size: 36px;
@@ -84,18 +95,23 @@
 
     /*-------- banner css end ----------*/
 
+    /*-------- about css start ----------*/
+   
     #about
     {
         text-align: center;
+        margin-bottom:20px ;
+
     }
     #about .container
     {
-        padding: 5px;
+        padding: 0;
     }
 
     #about .contains
     {
         margin-top: 55px;
+        
     }
 
     #about .contains .links-box 
@@ -103,11 +119,112 @@
         padding-left: 20px;
     }
    
+    /* #about .img img
+    {
+        border: 1px solid black;
+    } */
+
+    #about .container 
+    {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+    
     #about .img .icons
     {
         left: 51px;
 
     }
+
+    #about .contains h4 
+    {
+        font-size: 36px;
+        padding: 10px;
+    }
+
+    #about .contains p 
+    {
+        padding: 10px;
+        text-align: justify;
+    }
+
+    #about .contains a 
+    {
+        margin-bottom: 30px;
+    }
+
+ /*-------- about css end ----------*/
+
+
+ /*-------- work css start ----------*/
+ #work 
+ {
+    padding-bottom: 30px;
+ }
+ #work .row 
+ {
+     padding-top: 30px ;
+ 
+ }
+
+ #work .card-box
+ {
+    width: calc(100% - 24px);
+    margin-bottom: 20px;
+ }
+
+ #work .card-box:nth-child(1) 
+ {
+    top: 0;
+ }
+
+#work .card-box:nth-child(3)
+ {
+    top: 0;
+ }
+ /*-------- work css end ----------*/
+
+/*-------- portfolio css start ----------*/
+#portfolio
+{
+    padding: 40px 0;
+}
+#portfolio .card-section .card-box
+{
+    width: calc(100% - 24px);
+}
+#portfolio .contains h4 
+{
+font-size: 36px;
+}
+#portfolio .contains p 
+{
+    width: 100%;
+    text-align: justify;
+}
+
+#portfolio .contains
+{
+    margin-bottom: 30px;
+}
+
+#portfolio .more
+{
+    text-align: center;
+    margin-top: 30px;
+}
+/*-------- portfolio css end ----------*/
+
+
+
+
+
+
+
+
+
 
 
 }
